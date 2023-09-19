@@ -1,0 +1,24 @@
+Generation Type   L42 AM4+   LQ{SqBootRecovery}|netsh.los.load_basedata="Configure System Properties"
+Generation Type   L41 AM4+   LQ{SqBootRecovery}|bgprop.los.load_basedata="Configure System Background Application Property"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|BGAPP.los.load_basedata="Configure BackSystem Application"
+
+//Configure System Ltype Property 01//
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Agent.los.load_basedata="Configure AarSvc Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Agent.los.load_basedata="Configure BackSystem Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|AllJoy.los.load_basedata="Configure BackSystem Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Application.los.load_basedata="Configure BackSystem Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Application.los.load_basedata="Configure AppIDSvc Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Application.los.load_basedata="Configure AMD External Events Utility Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Applicaiton.los.load_basedata="Configure ALG Application"
+Generation Type   L40 AM4+   LQ{SqBootApplication}|Windows Internal.los.load_basedata="Configure AppMgmt Application"
+
+//Configuration End Program Base Frequency Detector PBFD//
+PP{Bash No. 20 Found At Ln20|Col34 \\FrequencyMetersDisable.Reg\\}PP(PlacePort)
+CP{Base Frequency Was Incorrect, Try Later With AM3+ or AM2+ Or Earlier Systems}CP(CommandPort)
+IP{Later Bash No.4509 Found At Ln679|Col78 \\FrequncyDetectorEndingDisable.Reg\\}IP(InternalPort)
+COP{ERROR FOUND AT NO. 90098 FREQUENCY WAS TOO HIGH ACCORDING TO USER SIDDY}COP(ConfigurationPort)
+
+//Generate A Bash Configuration File At Desktop Of Folder User//
+create{Bash.20|LaterBash.4509|AcknologeFrequency|<MasterBootApplicationSecuritySystem>}
+
+META.RELOAD_SYSTEM.SAVE{SIDDYUSER/Desktop/BashConfig}|HIGH PROCESS OF SURTERSIMULATOR {DEL.INFOI}
