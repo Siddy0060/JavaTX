@@ -1,0 +1,10 @@
+print('Siddy Assistant Technologies Copyright 2023')
+print('JavaTX Assistant, type /h for help, /q for question')
+a=input('>')
+if a == '/h':
+    print('Variying A List Of Commands')
+    print('Generation Type   L42 AM4+   LQ{SqBootRecovery}|netsh.los.load_basedata="Configure System Properties"')
+    print('Generation Type   L41 AM4+   LQ{SqBootRecovery}|bgprop.los.load_basedata="Configure System Background Application Property"')
+    print('Generation Type   L40 AM4+   LQ{SqBootApplication}|BGAPP.los.load_basedata="Configure BackSystem Application"')
+    print('loaded commands from update center; Running LQ test now')
+loop()
